@@ -1,0 +1,49 @@
+body {
+    background: black;
+  }
+  
+  header#res {
+    display: flex;
+    font-size: 20pt;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+  
+  div#i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+  }
+  
+  div#b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+  }
+  
+  .modif {
+    margin: 2px;
+    font-size: 22px;
+    border: 1px solid black;
+    width: 104px;
+    text-align: center;
+  }
+  
+  footer#roda {
+    font: 15pt normal Arial;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
